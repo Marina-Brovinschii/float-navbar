@@ -1,0 +1,97 @@
+.top {
+    font-size: 16px;
+    list-style: none;
+    float:left;
+    background-color: rgba(128, 128, 128, 0.834);
+    height: 40px;
+    padding: 10px 10px 0 50px;
+}
+.top li {
+    float: left;
+    margin: 0 15px 0 15px;
+    padding-right: 30px;
+}
+.top a {
+    text-decoration: none;
+    color: brown;
+    font-family: 'Mooli', sans-serif;
+}
+.fa-solid {
+    font-size: 25px;
+}
+button {
+    background-color: chocolate;
+    font-size: 20px;
+    margin-top: 17px;
+    height: 49px;
+    float: right;
+}
+.fix {
+    clear: both;
+}
+.bottom span label {
+    font-family: 'Mooli', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    color: red;
+    padding: 10px 57px;
+    background-color: rgb(203, 203, 203);
+    border-radius: 10px;
+}
+.bottom span label:hover {
+    background-color: thistle;
+}
+.bottom span label::after {
+    content: "▼";
+}
+.bottom span ul {
+    display: none;
+}
+.bottom span input {
+    display: none;
+}
+.bottom span input:checked+label+ul {
+    display: block;
+    font-family: 'Mooli', sans-serif;
+    list-style: none;
+    padding-left: 0;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.bottom span input:checked+label::after {
+    content: "▲";
+}
+span {
+    float: left;
+    padding: 10px;
+    font-family: 'Mooli', sans-serif;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: red;
+    padding: 10px 20px;
+    background-color: rgb(203, 203, 203);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.bottom a:hover {
+    background-color: thistle;
+}
+
+.bottom li a {
+    color: rgb(103, 102, 102);
+    font-size: 16px;
+    line-height: 40px;
+    background-color: transparent;
+    display: block;
+}
+
+.bottom li a:hover {
+    color: brown;
+    background-color: coral;
+}
+
